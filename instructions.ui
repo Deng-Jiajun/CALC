@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Instructions</class>
+ <widget class="QDialog" name="Instructions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>280</width>
+    <height>399</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑 Light</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>使用说明</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>241</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;鼠标点击或在文本框输入表达式&lt;/p&gt;&lt;p&gt;点击&amp;quot;=&amp;quot;将在文本框输出运算结果&lt;/p&gt;&lt;p&gt;表达式不包含等号&amp;quot;=&amp;quot;&lt;/p&gt;&lt;p&gt;例：1+2*(3+4)&lt;/p&gt;&lt;p&gt;本计算器提供两种模式&lt;/p&gt;&lt;p&gt;1.标准模式，与普通计算器无异&lt;/p&gt;&lt;p&gt;2.大数模式，只支持超长整数计算&lt;/p&gt;&lt;p&gt;大数类型类似整形int&lt;/p&gt;&lt;p&gt;进行除法运算时将截断小数部分&lt;/p&gt;&lt;p&gt;不建议使用除法，将造成较大误差&lt;/p&gt;&lt;p&gt;项目代码及文件已上传至github:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Deng-Jiajun/CALC.git&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;点击查看项目文件&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
